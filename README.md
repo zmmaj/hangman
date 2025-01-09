@@ -9,10 +9,17 @@ Written for HelenOS and hard changed SrBinOS
 
 Install
 Add complete folder "hangman" with all files under "uspace/app/"
+
 In file meson.build    "uspace/app/meson.build"
+
 add line "hangman" as is below
+
 'gfxdemo',
+
 'gunzip',
+
 'hangman',
+
 'hbench',
+
 
