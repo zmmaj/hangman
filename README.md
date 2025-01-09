@@ -1,0 +1,2 @@
+# hangman
+funny word game
