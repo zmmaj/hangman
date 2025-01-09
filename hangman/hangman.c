@@ -106,10 +106,8 @@ void play(){
     //const char* secretWord_blank=secretWord;
     const char* hint = wordList[wordIndex].hint;
     char guessedWord[MAX_WORD_LENGTH] = {0};
-    // English version is
-  //int wordLength = str_length(secretWord);
-  //So please change it, or you will have compilation error
-    int wordLength = стр_дужина(secretWord);
+	
+    int wordLength = str_length(secretWord);
     for (int i = 0; i < wordLength; i++){
     guessedWord[i]='_';
     }
@@ -230,7 +228,6 @@ console_set_style(console, STYLE_NORMAL);
 
 void displayWord(const char word[], const bool guessed[], int wordLength)
 {  
-    //int wordLength = стр_дужина( secretWord);
     printf("Word: ");
  
        for (int t = 0; t < wordLength; ++t)
