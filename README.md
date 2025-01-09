@@ -22,4 +22,8 @@ add line "hangman" as is below
 
 'hbench',
 
+NOTE: If you need more, or different words for game, change it or Add in file 
+"words.h"..
+First come word, than HINT for that word...
 
+Enjou!
